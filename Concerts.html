@@ -7,6 +7,7 @@
     <title>Jade Kuehnel</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="Images/Icons/Favicon.png">
+
     <style>
         body {
             background-color: #010101;
@@ -37,7 +38,25 @@
 
 
 
-        .gallery {
+        .concert {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+            .concert img {
+                width: 100%;
+                height: auto;
+                border-radius: 5px;
+            }
+
+                #title {
+            text-align: center;
+            color: white;
+            font-family: 'IBM Plex Sans Condensed', sans-serif;
+        }
+
+        .concert {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
             gap: 20px;
@@ -48,6 +67,43 @@
                 height: auto;
                 border-radius: 5px;
             }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            border-radius: 10px;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+
+        }
+
+        .dropdown-content a:hover {
+            background-color: #575757;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown > a:hover {
+            background-color: #c795fa;
+        }            
+ 
     </style>
     <meta property="og:title" content="Jade Kuehnel" />
     <meta property="og:type" content="website" />
@@ -59,28 +115,56 @@
 
 <body>
     <header>
-        <h1 id="title">Jade Kuehnel</h1>
+        <h1 id="title">Jade Kuehnel</h1>        
         <nav>
             <a href="equipment.html">Camera Equipment</a>
-            <a href="Software.html">Software I use</a>
-            <a href="computer.html">Computer Specs</a>
-            <a href="showcase.html">Photography Showcase</a>
+            <div class="dropdown">
+                <a>Photography Showcase</a>
+                <div class="dropdown-content">
+                    <a href="newyork2024.html">New York 2024</a>
+                    <a href="seattle2023.html">Seattle 2023</a>
+                    <a href="extras.html">Friends and Extras</a>
+                </div>
+            </div>
             <a href="aboutme.html">About Me</a>
-            <br>
-            <br>
-
+            <a href="concerts.html">Concerts</a>
         </nav>
     </header>
-
 </body>
 
 
+<section>
+    <h2>Weezer</h2>
+    <article>
+        <h3>Aug 19th 2023</h3>
+            <div class="concert">
+        <a href="Images/FullSize/Concerts/weezer1.JPG">
+            <img src="Images/Thumbnails/Concerts/weezer1.webp" alt="weezer1">
+        </a>
+        <a href="Images/FullSize/Concerts/weezer2.jpg">
+            <img src="Images/Thumbnails/Concerts/weezer2.webp" alt="weezer2">
+        </a>
+        <a href="Images/FullSize/Concerts/weezer3.JPG">
+            <img src="Images/Thumbnails/Concerts/weezer3.webp" alt="weezer3">
+        </a>
+    </article>
+</section>
+
 
 <section>
-    <h2>Hello!</h2>
+    <h2>M83</h2>
     <article>
-        <h3>Oct 30th 2024</h3>
-        <p>It's been almost a year since I've added to this section, I have now added it to my main website, I am going to be working on this site again, it needs an overhall its a MESS I need to make it look alot nicer, I have so many pictures to add to it now, anyways I should start doing that!. -Jade</p>
+        <h3>May 20th 2023</h3>
+            <div class="concert">
+        <a href="Images/FullSize/Concerts/m83_1.JPG">
+            <img src="Images/Thumbnails/Concerts/m83_1.webp" alt="m83_1">
+        </a>
+        <a href="Images/FullSize/Concerts/m83_2.jpg">
+            <img src="Images/Thumbnails/Concerts/m83_2.webp" alt="m83_2">
+        </a>
+        <a href="Images/FullSize/Concerts/m83_3.JPG">
+            <img src="Images/Thumbnails/Concerts/m83_3.webp" alt="m83_3">
+        </a>
     </article>
 </section>
 
@@ -88,7 +172,17 @@
         <h2>Gorillaz</h2>
         <article>
             <h3> Sept 11 2022</h3>
-            <p> Gorillaz was my first concert I went to, it was  </p>
+        <div class="concert">
+            <a href="Images/FullSize/Concerts/gorillaz1.JPG">
+                <img src="Images/Thumbnails/Concerts/gorillaz1.webp" alt="gorillaz1">
+            </a>
+            <a href="Images/FullSize/Concerts/gorillaz2.jpg">
+                <img src="Images/Thumbnails/Concerts/gorillaz2.webp" alt="gorillaz2">
+            </a>
+             <a href="Images/FullSize/Concerts/gorillaz3.jpg">
+                 <img src="Images/Thumbnails/Concerts/gorillaz3.webp" alt="gorillaz3">
+             </a>
+        </div>
         </article>
     </section>
 
