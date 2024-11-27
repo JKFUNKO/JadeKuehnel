@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -74,19 +74,6 @@
               "IsPinned": true
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "concerts.html",
-              "DocumentMoniker": "F:\\Github\\JadeKuehnel\\concerts.html",
-              "RelativeDocumentMoniker": "concerts.html",
-              "ToolTip": "F:\\Github\\JadeKuehnel\\concerts.html",
-              "RelativeToolTip": "concerts.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-27T09:43:02.434Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
@@ -100,6 +87,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "concerts.html",
+              "DocumentMoniker": "F:\\Github\\JadeKuehnel\\concerts.html",
+              "RelativeDocumentMoniker": "concerts.html",
+              "ToolTip": "F:\\Github\\JadeKuehnel\\concerts.html",
+              "RelativeToolTip": "concerts.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-27T09:43:02.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "blog.html",
               "DocumentMoniker": "F:\\Github\\JadeKuehnel\\blog.html",
@@ -108,8 +108,7 @@
               "RelativeToolTip": "blog.html",
               "ViewState": "AgIAAEwAAAAAAAAAAAAcwI8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-27T05:33:15.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T05:33:15.691Z"
             },
             {
               "$type": "Document",
@@ -121,8 +120,7 @@
               "RelativeToolTip": "seattle2023.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-26T07:55:07.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T07:55:07.606Z"
             },
             {
               "$type": "Document",
@@ -134,8 +132,7 @@
               "RelativeToolTip": "aboutme.html",
               "ViewState": "AgIAAIkAAAAAAAAAAAAgwKIAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-27T04:31:15.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T04:31:15.461Z"
             },
             {
               "$type": "Document",
