@@ -1,3 +1,3 @@
-# JadeKuehnel.github.io
-
-Hello! this is my website for my projects, currently its modtly for my photography
+# https://jadekuehnel.me/
+![Alt text](https://cloud-pbidz19wd-hack-club-bot.vercel.app/0image.png)
+Hello! This is my website for my projects, currently, it's mostly for my photography
