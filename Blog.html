@@ -8,12 +8,53 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="Images/Icons/Favicon.png">
     <style>
+
+        body {
+            background-color: #010101;
+            color: white;
+        }
+
+        #image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 10px;
+        }
+
+
+        .image {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        #back-to-index button {
+            padding: 10px 20px;
+            background-color: #902bf5;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            #back-to-index button:hover {
+                background-color: #902bf5;
+            }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
         body {
             background-color: #010101;
             color: white;
             margin: 0;
             padding: 0;
         }
+
+
 
         header {
             border: 10px solid #E0B0FF;
@@ -26,17 +67,6 @@
             font-family: 'IBM Plex Sans Condensed', sans-serif;
         }
 
-        nav a {
-            color: white;
-            text-decoration: none;
-        }
-
-            nav a:hover {
-                text-decoration: underline;
-            }
-
-
-
         .gallery {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -48,6 +78,7 @@
                 height: auto;
                 border-radius: 5px;
             }
+
 
         .dropdown {
             position: relative;
@@ -83,17 +114,6 @@
         .dropdown > a:hover {
             background-color: #c795fa;
         }
-
-        h3 {
-            text-align: center;
-        }
-        h2 {
-            text-align: center;
-        }
-        p {
-            text-align: center;
-        }
-
     </style>
     <meta property="og:title" content="Jade Kuehnel" />
     <meta property="og:type" content="website" />
@@ -102,44 +122,41 @@
     <meta property="og:image" content="Images/Icons/Favicon.png" />
     <meta name="theme-color" content="#010101">
 </head>
-
-<body>
-    <header>
-        <h1 id="title">Jade Kuehnel</h1>
-        <nav>
-            <a href="equipment.html">Camera Equipment</a>
-            <div class="dropdown">
-                <a>Photography Showcase</a>
-                <div class="dropdown-content">
-                    <a href="newyork2024.html">New York 2024</a>
-                    <a href="seattle2023.html">Seattle 2023</a>
-                    <a href="extras.html">Friends and Extras</a>
-                </div>
+<header>
+    <h1 id="title">Jade Kuehnel</h1>
+    <nav>
+        <a href="equipment.html">Camera Equipment</a>
+        <div class="dropdown">
+            <a>Photography Showcase</a>
+            <div class="dropdown-content">
+                <a href="newyork2024.html">New York 2024</a>
+                <a href="seattle2023.html">Seattle 2023</a>
+                <a href="extras.html">Friends and Extras</a>
             </div>
-            <a href="aboutme.html">About Me</a>
-            <a href="concerts.html">Concerts</a>
-            <a href="blog.html">My blog</a>
-        </nav>
-    </header>
+        </div>
+        <a href="aboutme.html">About Me</a>
+        <a href="concerts.html">Concerts</a>
+        <a href="blog.html">My blog</a>
+    </nav>
+</header>
+<body>
 
-</body>
+    <section>
+        <h2>Whats uupp</h2>
+        <article>
+            <h3>Nov 26th 2024</h3>
+            <h3>9:44pm</h3>
+            <p>I have been working on the site more often, I have added lots of new pictures and organized my showcase so now its diffrent categories instead of everything being on the same page,<br /> I think im making decent progress probably the next thing is style Im a bit afraid its gonna mess up everything but hey might as well make it look better, anyways back to coding for another three hours -Jade.</p>
+        </article>
+    </section>
 
-<section>
-    <h2>Whats uupp</h2>
-    <article>
-        <h3>Nov 26th 2024</h3>
-        <h3>9:44pm</h3>
-        <p>I have been working on the site more often, I have added lots of new pictures and organized my showcase so now its diffrent categories instead of everything being on the same page,<br /> I think im making decent progress probably the next thing is style Im a bit afraid its gonna mess up everything but hey might as well make it look better, anyways back to coding for another three hours -Jade.</p>
-    </article>
-</section>
-
-<section>
-    <h2>Hello!</h2>
-    <article>
-        <h3>Oct 30th 2024</h3>
-        <p>It's been almost a year since I've added to this section, I have now added it to my main website, I am going to be working on this site again, it needs an overhall its a MESS I need to make it look alot nicer, I have so many pictures to add to it now, anyways I should start doing that!. -Jade</p>
-    </article>
-</section>
+    <section>
+        <h2>Hello!</h2>
+        <article>
+            <h3>Oct 30th 2024</h3>
+            <p>It's been almost a year since I've added to this section, I have now added it to my main website, I am going to be working on this site again, it needs an overhall its a MESS I need to make it look alot nicer, I have so many pictures to add to it now, anyways I should start doing that!. -Jade</p>
+        </article>
+    </section>
 
     <section>
         <h2> Igor</h2>
@@ -150,7 +167,7 @@
     </section>
 
 
-<footer style="text-align: center; padding: 20px; background-color: #010101; color: white;">
-    © Jade Kuehnel 2024
-</footer>
+    <footer style="text-align: center; padding: 20px; background-color: #010101; color: white;">
+        © Jade Kuehnel 2024
+    </footer>
 </html>
