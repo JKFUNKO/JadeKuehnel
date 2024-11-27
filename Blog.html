@@ -48,6 +48,52 @@
                 height: auto;
                 border-radius: 5px;
             }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            border-radius: 10px;
+        }
+
+            .dropdown-content a {
+                color: white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #575757;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown > a:hover {
+            background-color: #c795fa;
+        }
+
+        h3 {
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+
     </style>
     <meta property="og:title" content="Jade Kuehnel" />
     <meta property="og:type" content="website" />
@@ -62,19 +108,30 @@
         <h1 id="title">Jade Kuehnel</h1>
         <nav>
             <a href="equipment.html">Camera Equipment</a>
-            <a href="Software.html">Software I use</a>
-            <a href="computer.html">Computer Specs</a>
-            <a href="showcase.html">Photography Showcase</a>
+            <div class="dropdown">
+                <a>Photography Showcase</a>
+                <div class="dropdown-content">
+                    <a href="newyork2024.html">New York 2024</a>
+                    <a href="seattle2023.html">Seattle 2023</a>
+                    <a href="extras.html">Friends and Extras</a>
+                </div>
+            </div>
             <a href="aboutme.html">About Me</a>
-            <br>
-            <br>
-
+            <a href="concerts.html">Concerts</a>
+            <a href="blog.html">My blog</a>
         </nav>
     </header>
 
 </body>
 
-
+<section>
+    <h2>Whats uupp</h2>
+    <article>
+        <h3>Nov 26th 2024</h3>
+        <h3>9:44pm</h3>
+        <p>I have been working on the site more often, I have added lots of new pictures and organized my showcase so now its diffrent categories instead of everything being on the same page,<br /> I think im making decent progress probably the next thing is style Im a bit afraid its gonna mess up everything but hey might as well make it look better, anyways back to coding for another three hours -Jade.</p>
+    </article>
+</section>
 
 <section>
     <h2>Hello!</h2>
@@ -88,18 +145,12 @@
         <h2> Igor</h2>
         <article>
             <h3> Nov 11 2023</h3>
-            <p>Lately ive been listening to Tyler, The Creators 2019 album Igor , I love this album its such an amazing album, my favorite track on this album has got to be the first track Igor's theme I love the intro to it and just the entire instrumental. For a while when I first started listening to Tyler I just listened to New Magic Wand but over the past year and a bit ive just fell in love with his work. I love his clotheing brand Golf I myself own only one piece sadly but would love more. I reccomened checking out Tyle's music its amazing. Thanks for reading -Jade</p>
+            <p>Lately ive been listening to Tyler, The Creators 2019 album Igor , I love this album its such an amazing album, my favorite track on this album has got to be the first track Igor's theme <br /> I love the intro to it and just the entire instrumental. For a while when I first started listening to Tyler I just listened to New Magic Wand <br /> but over the past year and a bit Ive just fell in love with his work. I love his clotheing brand Golf I myself own only one piece sadly but would love more. I reccomened checking out Tyle's music its amazing. Thanks for reading -Jade</p>
         </article>
     </section>
 
-<section>
-    <h2>Who I am</h2>
-    <article>
-        <h3>Nov 18 2023</h3>
-        <p>Hey my names Jade, Im trans and go by she/her, I have a cat and dog, my cats name is Goose and dogs name is Blue, I live with my parents and sister and im in highschool. I like playing games, watching tv/movies, listening to music, cooking, baking and eating food, I like traveling and hanging out with my friends and family. Im working on some projects one being Project Penguin my up and coming game studio with some friends, Weezer Hell is my playground so I can just mess around. I hope to have a succesfull game studio in the future. Thanks for reading -Jade</p>
-</section>
-    </article>
+
 <footer style="text-align: center; padding: 20px; background-color: #010101; color: white;">
-    � Jade Kuehnel 2024
+    © Jade Kuehnel 2024
 </footer>
 </html>
