@@ -1,8 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
+    background-color: #010101;
+    color: white;
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
+
+
 
 .container {
     max-width: 800px;
@@ -15,9 +19,7 @@ header {
     color: black;
     text-align: center;
     padding: 10px;
-
 }
-
 nav a {
     margin: 0 15px;
     text-decoration: none;
@@ -25,39 +27,70 @@ nav a {
     font-weight: bold;
 }
 
-main {
-    margin-top: 20px;
+#image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
 }
 
-.btn {
-    display: inline-block;
-    background-color: #4CAF50;
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#back-to-index button {
+    padding: 10px 20px;
+    background-color: #902bf5;
+    border: none;
     color: white;
-    padding: 15px 30px;
-    text-decoration: none;
-    border-radius: 25px;
-    margin-top: 20px;
-    transition: background-color 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-.btn:hover {
-    background-color: #45a049;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    #back-to-index button:hover {
+        background-color: #902bf5;
+    }
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-ul {
-    list-style: none;
+
+
+header {
+    border: 10px solid #E0B0FF;
+    box-sizing: border-box;
 }
 
-    ul li {
-        margin-bottom: 10px;
-        .dropdown
-
-{
-    position: relative;
-    display: inline-block;
+.concert {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
 }
+
+#title {
+    text-align: center;
+    color: white;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+    .gallery img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
 
 .dropdown {
     position: relative;
@@ -93,5 +126,3 @@ ul {
 .dropdown > a:hover {
     background-color: #c795fa;
 }
-
-
