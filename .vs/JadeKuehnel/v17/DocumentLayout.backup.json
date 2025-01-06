@@ -3,8 +3,23 @@
   "WorkspaceRootPath": "G:\\Github\\JadeKuehnel\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Github\\JadeKuehnel\\equipment.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:equipment.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Github\\JadeKuehnel\\extras.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:extras.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Github\\JadeKuehnel\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Github\\JadeKuehnel\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Github\\JadeKuehnel\\index(og).html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Github\\JadeKuehnel\\film.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -29,21 +44,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Github\\JadeKuehnel\\aboutme.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:aboutme.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Github\\JadeKuehnel\\extras.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:extras.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Github\\JadeKuehnel\\equipment.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:equipment.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Github\\JadeKuehnel\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Github\\JadeKuehnel\\index(og).html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,11 +53,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "index(og).html",
               "DocumentMoniker": "F:\\Github\\JadeKuehnel\\index(og).html",
               "ToolTip": "F:\\Github\\JadeKuehnel\\index(og).html",
@@ -67,15 +67,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "styles.css",
-              "DocumentMoniker": "G:\\Github\\JadeKuehnel\\styles.css",
-              "RelativeDocumentMoniker": "styles.css",
-              "ToolTip": "G:\\Github\\JadeKuehnel\\styles.css",
-              "RelativeToolTip": "styles.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-08T08:39:04.808Z",
+              "DocumentIndex": 1,
+              "Title": "extras.html",
+              "DocumentMoniker": "G:\\Github\\JadeKuehnel\\extras.html",
+              "RelativeDocumentMoniker": "extras.html",
+              "ToolTip": "G:\\Github\\JadeKuehnel\\extras.html",
+              "RelativeToolTip": "extras.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-26T05:11:27.42Z",
               "EditorCaption": ""
             },
             {
@@ -96,7 +96,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "styles.css",
+              "DocumentMoniker": "G:\\Github\\JadeKuehnel\\styles.css",
+              "RelativeDocumentMoniker": "styles.css",
+              "ToolTip": "G:\\Github\\JadeKuehnel\\styles.css",
+              "RelativeToolTip": "styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-08T08:39:04.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "film.html",
               "DocumentMoniker": "G:\\Github\\JadeKuehnel\\film.html",
               "RelativeDocumentMoniker": "film.html",
@@ -104,12 +117,11 @@
               "RelativeToolTip": "film.html",
               "ViewState": "AgIAABwAAAAAAAAAAAAcwFAAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-27T10:14:12.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T10:14:12.752Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "seattle2023.html",
               "DocumentMoniker": "G:\\Github\\JadeKuehnel\\seattle2023.html",
               "RelativeDocumentMoniker": "seattle2023.html",
@@ -121,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "newyork2024.html",
               "DocumentMoniker": "G:\\Github\\JadeKuehnel\\newyork2024.html",
               "RelativeDocumentMoniker": "newyork2024.html",
@@ -133,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "blog.html",
               "DocumentMoniker": "G:\\Github\\JadeKuehnel\\blog.html",
               "RelativeDocumentMoniker": "blog.html",
@@ -145,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "concerts.html",
               "DocumentMoniker": "G:\\Github\\JadeKuehnel\\concerts.html",
               "RelativeDocumentMoniker": "concerts.html",
@@ -157,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "aboutme.html",
               "DocumentMoniker": "G:\\Github\\JadeKuehnel\\aboutme.html",
               "RelativeDocumentMoniker": "aboutme.html",
@@ -169,39 +181,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "extras.html",
-              "DocumentMoniker": "G:\\Github\\JadeKuehnel\\extras.html",
-              "RelativeDocumentMoniker": "extras.html",
-              "ToolTip": "G:\\Github\\JadeKuehnel\\extras.html",
-              "RelativeToolTip": "extras.html",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAgwIcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-26T05:11:27.42Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "equipment.html",
               "DocumentMoniker": "G:\\Github\\JadeKuehnel\\equipment.html",
               "RelativeDocumentMoniker": "equipment.html",
               "ToolTip": "G:\\Github\\JadeKuehnel\\equipment.html",
               "RelativeToolTip": "equipment.html",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAEoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-26T07:54:43.463Z"
+              "WhenOpened": "2024-11-26T07:54:43.463Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "index.html",
               "DocumentMoniker": "G:\\Github\\JadeKuehnel\\index.html",
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "G:\\Github\\JadeKuehnel\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAIwGIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-25T19:20:37.497Z"
+              "WhenOpened": "2024-11-25T19:20:37.497Z",
+              "EditorCaption": ""
             }
           ]
         }
