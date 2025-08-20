@@ -1,3 +1,17 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main {
+  flex: 1;
+}
+
 
 #title a {
     color: inherit;
@@ -252,4 +266,25 @@ img {
     to {
         width: 4%;
     }
+}
+
+.footerContainer {
+    background-color: #111;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.footerContainer .socialMedia {
+    margin-top: 10px;
+}
+
+.footerContainer .socialMedia a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.footerContainer .socialMedia a:hover {
+    color: #575757;
 }
