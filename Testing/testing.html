@@ -1,16 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currently Listening</title>
+    <title>Jade Kuehnel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="Images/Icons/Favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta property="og:title" content="Jade Kuehnel" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jadekuehnel.me/" />
+    <meta property="og:description" content="Hello this is my website for my projects" />
+    <meta property="og:image" content="Images/Icons/Favicon.png" />
+    <meta name="theme-color" content="#010101">
 </head>
-<body>
-    <h1>What I'm Listening To</h1>
-    <div id="current-track">
-        Loading...
-    </div>
 
-    <script src="Testing/script.js"></script>
+<body>
+
+<div class="footerContainer">
+  <p>© 2025 Jade Kuehnel.</p>
+  <div class="socialMedia">
+    <a href="https://twitter.com/JKFUNK0" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/jadedoesphotography08/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.flickr.com/photos/jadekuehnel08/" target="_blank"><i class="fab fa-flickr"></i></a>
+    <a href="https://www.linkedin.com/in/jade-kuehnel-16678a342/" target="_blank"><i class="fab fa-linkedin"></i></a>
+  </div>
+</div>
+
+
+/* Responsive CSS Typewriter Effect */
+.typewriter {
+  display: inline-block;
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #fff;
+  /* Adjust the animation duration and steps to match your text length */
+  animation: typing 2s steps(var(--typewriter-ch, 12), end), blink-cursor 0.75s step-end infinite;
+  /* --typewriter-ch is a custom property for character count */
+  font-size: 2rem; /* Make typewriter text bigger than normal text */
+  font-weight: bold;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: var(--typewriter-width, 12ch); }
+}
+
+@keyframes blink-cursor {
+  0%, 100% { border-color: transparent; }
+  50% { border-color: #fff; }
+}
+
+/* Example usage: set the character count for each .typewriter */
+/*
+.typewriter[data-ch="7"] {
+  --typewriter-ch: 7;
+  --typewriter-width: 7ch;
+}
+*/
+
 </body>
 </html>

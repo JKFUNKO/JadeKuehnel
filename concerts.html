@@ -14,14 +14,16 @@
 
     <meta property="og:title" content="Jade Kuehnel" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://jadekuehnel.me/" />
+    <meta property="og:url" content="https://jkfunko.github.io/JadeKuehnel/" />
     <meta property="og:description" content="Hello this is my website for my projects" />
     <meta property="og:image" content="Images/Icons/Favicon.png" />
     <meta name="theme-color" content="#010101">
+    <script src="js.js"></script>
 </head>
 
 <body>
-    <div class="sidenav">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <h1 id="title"><a href="index.html">Jade Kuehnel</a></h1>
         <a href="aboutme.html">About</a>
         <div class="dropdown">
@@ -34,8 +36,9 @@
             </div>
         </div>
         <a href="concerts.html">Concerts</a>
-        <a href="blog.html">Blog</a>
     </div>
+    <span onclick="openNav()"></span>
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
 </body>
 
 <div class="main">
@@ -51,22 +54,22 @@
                     <img src="Images/Thumbnails/Concerts/weezer2.webp" alt="weezer2">
                 </a>
                 <a href="Images/FullSize/Concerts/weezer3.JPG">
-                    <img src="Images/Thumbnails/Concerts/weezer3.webp" alt="weezer3">
-                </a>
-            </div>
-        </article>
-    </section>
-
-
-    <section>
-        <h2>M83</h2>
-        <article>
-            <h3>May 20th 2023</h3>
-            <div class="concert">
-                <a href="Images/FullSize/Concerts/m83_1.JPG">
-                    <img src="Images/Thumbnails/Concerts/m83_1.webp" alt="m83_1">
-                </a>
-                <a href="Images/FullSize/Concerts/m83_2.jpg">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <h1 id="title"><a href="index.html">Jade Kuehnel</a></h1>
+                        <a href="aboutme.html">About</a>
+                        <div class="dropdown">
+                            <a>Photography Showcase</a>
+                            <div class="dropdown-content">
+                                <a href="newyork2024.html">New York 2024</a>
+                                <a href="seattle2023.html">Seattle 2023</a>
+                                <a href="extras.html">Friends and Extras</a>
+                                <a href="film.html">Film</a>
+                            </div>
+                        </div>
+                        <a href="concerts.html">Concerts</a>
+                    </div>
+                    <span onclick="openNav()"></span>
                     <img src="Images/Thumbnails/Concerts/m83_2.webp" alt="m83_2">
                 </a>
                 <a href="Images/FullSize/Concerts/m83_3.JPG">
@@ -93,19 +96,17 @@
             </div>
         </article>
     </section>
-
+    </div>  
 
     </article>
-    <footer style="text-align: center; padding: 20px; background-color: #010101; color: white;">
-        � Jade Kuehnel 2024
-    </footer>
     <div class="footerContainer">
         <p>© 2025 Jade Kuehnel.</p>
         <div class="socialMedia">
             <a href="https://twitter.com/JKFUNK0" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com/jadedoesphotography08/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/jadedoesphotography08/" target="_blank"><i class="fab fa-instagram"></i>
+            </a>
             <a href="https://www.flickr.com/photos/jadekuehnel08/" target="_blank"><i class="fab fa-flickr"></i></a>
-            <a href="https://www.linkedin.com/in/jade-kuehnel-16678a342/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/jade-kuehnel-16678a342/" target="_blank"><i class="fab fa-linkedin"></i>
+            </a>
         </div>
-    </div>
 </html>

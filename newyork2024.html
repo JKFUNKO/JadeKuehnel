@@ -9,29 +9,32 @@
     <link rel="icon" type="image/png" href="Images/Icons/Favicon.png">
     <meta property="og:title" content="Jade Kuehnel" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://jadekuehnel.me/" />
+    <meta property="og:url" content="https://jkfunko.github.io/JadeKuehnel/" />
     <meta property="og:description" content="Hello this is my website for my projects" />
     <meta property="og:image" content="Images/Icons/Favicon.png" />
     <meta name="theme-color" content="#010101">
+    <script src="js.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<div class="sidenav">
-    <h1 id="title">Jade Kuehnel</h1>
-  <a href="aboutme.html">About</a>
-<div class="dropdown">
-                <a>Photography Showcase</a>
-                <div class="dropdown-content">
-                    <a href="newyork2024.html">New York 2024</a>
-                    <a href="seattle2023.html">Seattle 2023</a>
-                    <a href="extras.html">Friends and Extras</a>
-                    <a href="film.html">Film</a>
-                </div>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <h1 id="title"><a href="index.html">Jade Kuehnel</a></h1>
+    <a href="aboutme.html">About</a>
+    <div class="dropdown">
+        <a>Photography Showcase</a>
+        <div class="dropdown-content">
+            <a href="newyork2024.html">New York 2024</a>
+            <a href="seattle2023.html">Seattle 2023</a>
+            <a href="extras.html">Friends and Extras</a>
+            <a href="film.html">Film</a>
+        </div>
+    </div>
+    <a href="concerts.html">Concerts</a>
 </div>
-  <a href="concerts.html">Concerts</a>
-  <a href="blog.html">Blog</a>
-</div>
+<span onclick="openNav()"></span>
+<button class="openbtn" onclick="openNav()">&#9776;</button>
     </nav>
 
 <body>
@@ -204,7 +207,4 @@
     </div>
 </div>
 </body>
-<footer style="text-align: center; padding: 20px; background-color: #010101; color: white;">
-    © Jade Kuehnel 2025
-</footer>
 </html>

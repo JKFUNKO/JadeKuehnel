@@ -10,39 +10,47 @@
     <link rel="stylesheet" href="styles.css">
         <meta property="og:title" content="Jade Kuehnel" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://jadekuehnel.me/" />
+        <meta property="og:url" content="https://jkfunko.github.io/JadeKuehnel/" />
         <meta property="og:description" content="Hello this is my website for my projects" />
         <meta property="og:image" content="Images/Icons/Favicon.png" />
         <meta name="theme-color" content="#010101">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+        <script src="js.js"></script>
+    </head>
 
 <body>
-    
-<div class="sidenav">
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <h1 id="title"><a href="index.html">Jade Kuehnel</a></h1>
-  <a href="aboutme.html">About</a>
-<div class="dropdown">
-                <a>Photography Showcase</a>
-                <div class="dropdown-content">
-                    <a href="newyork2024.html">New York 2024</a>
-                    <a href="seattle2023.html">Seattle 2023</a>
-                    <a href="extras.html">Friends and Extras</a>
-                    <a href="film.html">Film</a>
-                </div>
+    <a href="aboutme.html">About</a>
+    <div class="dropdown">
+        <a>Photography Showcase</a>
+        <div class="dropdown-content">
+            <a href="newyork2024.html">New York 2024</a>
+            <a href="seattle2023.html">Seattle 2023</a>
+            <a href="extras.html">Friends and Extras</a>
+            <a href="film.html">Film</a>
+        </div>
+    </div>
+    <a href="concerts.html">Concerts</a>
 </div>
-  <a href="concerts.html">Concerts</a>
-  <a href="blog.html">Blog</a>
+<span onclick="openNav()"></span>
+
+<div class="banner">
+  <div class="banner-text">
+    <h1>Welcome!</h1>
+    <a href="aboutme.html"><button>About me</button></a>
+  </div>
 </div>
 
 <div class="main">
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
     <main>
-        <div class="typewriter">
-            <p>Welcome</p>
-        </div>
+        <h3>currently under construction.</h3>
         <p>Hello, welcome to my site, this is where I showcase my photography and other things in the future like projects I am working on a blog of some sort. This website is still a work in progress but feel free to look at my pictures and my socials.</p>
     </main>
-    <section id="featured-work">
+    <!-- <section id="featured-work">
         <h2>Featured Work</h2>
         <div class="gallery">
             <a href="Images/FullSize/Seattle/seattle1.JPG">
@@ -54,7 +62,7 @@
             <a href="Images/FullSize/NYC/NYC12.jpg">
                 <img src="Images/Thumbnails/NYC/NYC12.webp" alt="NYC12">
             </a>
-        </div>
+        </div> -->
         </section>
 </div>
 <div class="footerContainer">
@@ -66,6 +74,8 @@
         <a href="https://www.linkedin.com/in/jade-kuehnel-16678a342/" target="_blank"><i class="fab fa-linkedin"></i></a>
     </div>
 </div>
+
+
 </body>
 
 </html>
