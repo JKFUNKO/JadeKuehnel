@@ -302,13 +302,38 @@ img {
   background: #333;
 }
 
+
 .projects {
-    width: 250px;
-    height: 150px;
+    width: 100%;
+    max-width: 350px;
     border-radius: 5px;
     color: white;
-    position: absolute;
-    bottom: 600px;
-    left: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(20,20,20,0.7);
+    box-sizing: border-box;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.projects img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .projects {
+    max-width: 95vw;
+    padding: 10px;
+    margin: 20px auto;
+  }
+  .projects img {
+    max-width: 90vw;
+  }
 }
