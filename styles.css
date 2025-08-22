@@ -53,12 +53,12 @@ body {
 }
 
 .sidenav .dropdown-content a {
-    color: white;
-    padding: 10px 0 10px 20px;
-    background: none;
-    border: none;
-    text-align: left;
-    font-size: 16px;
+  color: white;
+  padding: 10px 16px;
+  background: none;
+  border: none;
+  text-align: left;
+  font-size: 16px;
 }
 
 .sidenav .dropdown-content a:hover {
@@ -105,16 +105,11 @@ nav a {
     color: white;
 }
 
-
 img {
     max-width: 100%;
     height: auto;
     color: white;
 }
-
-
-
-
 
 .concert {
     display: grid;
@@ -124,10 +119,11 @@ img {
 }
 
 #title {
-    margin-left: 20px ;
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
-    color: white;
-    font-size: 20px;
+  margin: 0;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }
 
 .gallery {
@@ -164,10 +160,10 @@ img {
 
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #ffffff;
   display: block;
   transition: 0.3s;
 }
@@ -190,6 +186,11 @@ img {
 .main {
   transition: margin-left .5s;
   padding: 20px;
+}
+.concerts {
+  transition: margin-left .5s;
+  padding: 20px;
+  padding-left: 100px; 
 }
 
 @media screen and (max-height: 450px) {
@@ -267,8 +268,8 @@ img {
 }
 
 .banner-text button:hover {
-  background-color: #555;
-  color: white;
+  background-color: #252424;
+  color: rgb(255, 255, 255);
 }
 
 .banner-text button {
@@ -276,8 +277,8 @@ img {
   outline: 0;
   display: inline-block;
   padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
+  color: rgb(255, 255, 255);
+  background-color: #000000;
   text-align: center;
   cursor: pointer;
     border-radius: 5%;
@@ -299,4 +300,15 @@ img {
 }
 .openbtn:hover {
   background: #333;
+}
+
+.projects {
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    bottom: 600px;
+    left: 300px;
+
 }
