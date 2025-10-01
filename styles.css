@@ -302,13 +302,18 @@ img {
   background: #333;
 }
 
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
 
 .projects {
-    width: 100%;
     max-width: 350px;
     border-radius: 5px;
     color: white;
-    margin: 30px auto;
     padding: 20px;
     background: rgba(20,20,20,0.7);
     box-sizing: border-box;
